@@ -18,8 +18,6 @@ var bananas = {
   price: 2
 }
 
-
-
 var item = {
   beer: beer,
   crisps: crisps,

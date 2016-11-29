@@ -14,4 +14,8 @@ describe('shoppingBasket', function(){
     basket.empty();
     assert.equal(0, basket.contents.length)
   })
+  it('should count value of items', function(){
+    basket.add(item.bananas);
+    assert.equal(2, basket.values())      
+  })
 })
